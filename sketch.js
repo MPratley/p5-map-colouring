@@ -67,6 +67,7 @@ function setup() {
   canvas.parent("#sketchContainer");
   nodes = mapNodes(20);
   edges = mapEdges(nodes);
+  noLoop();
 }
 
 
